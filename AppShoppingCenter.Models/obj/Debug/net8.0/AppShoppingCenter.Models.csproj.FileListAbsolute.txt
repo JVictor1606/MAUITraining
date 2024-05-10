@@ -1,0 +1,11 @@
+C:\Projetos .NET\CursoMAUI\AppShoppingCenter.Models\bin\Debug\net8.0\AppShoppingCenter.Models.deps.json
+C:\Projetos .NET\CursoMAUI\AppShoppingCenter.Models\bin\Debug\net8.0\AppShoppingCenter.Models.dll
+C:\Projetos .NET\CursoMAUI\AppShoppingCenter.Models\bin\Debug\net8.0\AppShoppingCenter.Models.pdb
+C:\Projetos .NET\CursoMAUI\AppShoppingCenter.Models\obj\Debug\net8.0\AppShoppingCenter.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos .NET\CursoMAUI\AppShoppingCenter.Models\obj\Debug\net8.0\AppShoppingCenter.Models.AssemblyInfoInputs.cache
+C:\Projetos .NET\CursoMAUI\AppShoppingCenter.Models\obj\Debug\net8.0\AppShoppingCenter.Models.AssemblyInfo.cs
+C:\Projetos .NET\CursoMAUI\AppShoppingCenter.Models\obj\Debug\net8.0\AppShoppingCenter.Models.csproj.CoreCompileInputs.cache
+C:\Projetos .NET\CursoMAUI\AppShoppingCenter.Models\obj\Debug\net8.0\AppShoppingCenter.Models.dll
+C:\Projetos .NET\CursoMAUI\AppShoppingCenter.Models\obj\Debug\net8.0\refint\AppShoppingCenter.Models.dll
+C:\Projetos .NET\CursoMAUI\AppShoppingCenter.Models\obj\Debug\net8.0\AppShoppingCenter.Models.pdb
+C:\Projetos .NET\CursoMAUI\AppShoppingCenter.Models\obj\Debug\net8.0\ref\AppShoppingCenter.Models.dll
