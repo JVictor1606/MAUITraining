@@ -27,8 +27,14 @@ namespace AppShoppingCenter.ViewModels.CinemasVM
             {
                 {"movie", movie }
             };
-
+            if(DeviceInfo.Idiom == DeviceIdiom.Phone)
+            {
             Shell.Current.GoToAsync("detail", navParamenter);
+            }
+            else
+            {
+                Shell.Current.GoToAsync("detaildesktop", navParamenter);
+            }
         }
     }
 }

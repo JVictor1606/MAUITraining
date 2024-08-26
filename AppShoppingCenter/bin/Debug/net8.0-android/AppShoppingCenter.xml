@@ -6,9 +6,16 @@
     <members>
         <member name="T:AppShoppingCenter.ViewModels.CinemasVM.DetailPageViewModel">
             <inheritdoc/>
+            <inheritdoc/>
         </member>
         <member name="P:AppShoppingCenter.ViewModels.CinemasVM.DetailPageViewModel.Movie">
             <inheritdoc cref="F:AppShoppingCenter.ViewModels.CinemasVM.DetailPageViewModel.movie"/>
+        </member>
+        <member name="F:AppShoppingCenter.ViewModels.CinemasVM.DetailPageViewModel.tapCloseGoToMovieListCommand">
+            <summary>The backing field for <see cref="P:AppShoppingCenter.ViewModels.CinemasVM.DetailPageViewModel.TapCloseGoToMovieListCommand"/>.</summary>
+        </member>
+        <member name="P:AppShoppingCenter.ViewModels.CinemasVM.DetailPageViewModel.TapCloseGoToMovieListCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:AppShoppingCenter.ViewModels.CinemasVM.DetailPageViewModel.OnTapCloseGoToMovieList(CommunityToolkit.Maui.Views.MediaElement)"/>.</summary>
         </member>
         <member name="T:AppShoppingCenter.ViewModels.CinemasVM.ListPageViewModel">
             <inheritdoc/>
@@ -87,6 +94,61 @@
         </member>
         <member name="P:AppShoppingCenter.ViewModels.StoresVM.ListPageViewModel.TapEstablishmentGoToDetailPageCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:AppShoppingCenter.ViewModels.StoresVM.ListPageViewModel.OnTapEstablishmentGoToDetailPage(AppShoppingCenter.Models.Establishment)"/>.</summary>
+        </member>
+        <member name="T:AppShoppingCenter.ViewModels.TicketsVM.ListPageViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:AppShoppingCenter.ViewModels.TicketsVM.ListPageViewModel.Tickets">
+            <inheritdoc cref="F:AppShoppingCenter.ViewModels.TicketsVM.ListPageViewModel.tickets"/>
+        </member>
+        <member name="T:AppShoppingCenter.ViewModels.TicketsVM.PayPageViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:AppShoppingCenter.ViewModels.TicketsVM.PayPageViewModel.Pixcode">
+            <inheritdoc cref="F:AppShoppingCenter.ViewModels.TicketsVM.PayPageViewModel.pixcode"/>
+        </member>
+        <member name="F:AppShoppingCenter.ViewModels.TicketsVM.PayPageViewModel.copyAndPasteCommand">
+            <summary>The backing field for <see cref="P:AppShoppingCenter.ViewModels.TicketsVM.PayPageViewModel.CopyAndPasteCommand"/>.</summary>
+        </member>
+        <member name="P:AppShoppingCenter.ViewModels.TicketsVM.PayPageViewModel.CopyAndPasteCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:AppShoppingCenter.ViewModels.TicketsVM.PayPageViewModel.CopyAndPaste"/>.</summary>
+        </member>
+        <member name="T:AppShoppingCenter.ViewModels.TicketsVM.ResultPageViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:AppShoppingCenter.ViewModels.TicketsVM.ResultPageViewModel.Ticket">
+            <inheritdoc cref="F:AppShoppingCenter.ViewModels.TicketsVM.ResultPageViewModel.ticket"/>
+        </member>
+        <member name="P:AppShoppingCenter.ViewModels.TicketsVM.ResultPageViewModel.Tolerance">
+            <inheritdoc cref="F:AppShoppingCenter.ViewModels.TicketsVM.ResultPageViewModel.tolerance"/>
+        </member>
+        <member name="T:AppShoppingCenter.ViewModels.TicketsVM.ScanPageViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:AppShoppingCenter.ViewModels.TicketsVM.ScanPageViewModel.TicketNumber">
+            <inheritdoc cref="F:AppShoppingCenter.ViewModels.TicketsVM.ScanPageViewModel.ticketNumber"/>
+        </member>
+        <member name="F:AppShoppingCenter.ViewModels.TicketsVM.ScanPageViewModel.checkTicketNumberCommand">
+            <summary>The backing field for <see cref="P:AppShoppingCenter.ViewModels.TicketsVM.ScanPageViewModel.CheckTicketNumberCommand"/>.</summary>
+        </member>
+        <member name="P:AppShoppingCenter.ViewModels.TicketsVM.ScanPageViewModel.CheckTicketNumberCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:AppShoppingCenter.ViewModels.TicketsVM.ScanPageViewModel.CheckTicketNumber"/>.</summary>
+        </member>
+        <member name="F:AppShoppingCenter.ViewModels.TicketsVM.ScanPageViewModel.scanCommand">
+            <summary>The backing field for <see cref="P:AppShoppingCenter.ViewModels.TicketsVM.ScanPageViewModel.ScanCommand"/>.</summary>
+        </member>
+        <member name="P:AppShoppingCenter.ViewModels.TicketsVM.ScanPageViewModel.ScanCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:AppShoppingCenter.ViewModels.TicketsVM.ScanPageViewModel.Scan"/>.</summary>
+        </member>
+        <member name="F:AppShoppingCenter.ViewModels.TicketsVM.ScanPageViewModel.listCommand">
+            <summary>The backing field for <see cref="P:AppShoppingCenter.ViewModels.TicketsVM.ScanPageViewModel.ListCommand"/>.</summary>
+        </member>
+        <member name="P:AppShoppingCenter.ViewModels.TicketsVM.ScanPageViewModel.ListCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:AppShoppingCenter.ViewModels.TicketsVM.ScanPageViewModel.List"/>.</summary>
         </member>
         <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Button.TextColorTo(Microsoft.Maui.Controls.Button,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
             <summary>
@@ -232,6 +294,21 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.EstablishmentsFilted">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "EstablishmentsFilted" generated properties.</summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Tickets">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Tickets" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Pixcode">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Pixcode" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Ticket">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Ticket" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Tolerance">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Tolerance" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.TicketNumber">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "TicketNumber" generated properties.</summary>
+        </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
             <summary>
             A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
@@ -255,6 +332,21 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.EstablishmentsFilted">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "EstablishmentsFilted" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Tickets">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Tickets" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Pixcode">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Pixcode" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Ticket">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Ticket" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Tolerance">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Tolerance" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.TicketNumber">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "TicketNumber" generated properties.</summary>
         </member>
     </members>
 </doc>

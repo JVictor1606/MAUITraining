@@ -1,6 +1,8 @@
-﻿using AppShoppingCenter.Services;
+﻿using AppShoppingCenter.Libraries.Storages;
+using AppShoppingCenter.Services;
 using CommunityToolkit.Maui;
 using Microsoft.Extensions.Logging;
+using ZXing.Net.Maui.Controls;
 
 namespace AppShoppingCenter
 {
@@ -11,6 +13,7 @@ namespace AppShoppingCenter
             var builder = MauiApp.CreateBuilder();
             builder
                 .UseMauiApp<App>()
+                .UseBarcodeReader()
                 .UseMauiCommunityToolkitMediaElement()
                 .UseMauiCommunityToolkit()
                 .ConfigureFonts(fonts =>
@@ -22,6 +25,8 @@ namespace AppShoppingCenter
             builder.Services.AddSingleton<StoreService>();
             builder.Services.AddSingleton<RestaurantService>();
             builder.Services.AddSingleton<CinemaService>();
+            builder.Services.AddSingleton<TicketService>();
+            builder.Services.AddSingleton<TicketPreferenceStorage>();
 
 #if DEBUG
     		builder.Logging.AddDebug();

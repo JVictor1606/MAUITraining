@@ -30,7 +30,7 @@
 
         <ShellContent
             Title="Ticket"
-            ContentTemplate="{DataTemplate tickets:ListPage}"
+            ContentTemplate="{DataTemplate tickets:ScanPage}"
             Icon="ticket.png"
             Route="tickets" />
     </TabBar>

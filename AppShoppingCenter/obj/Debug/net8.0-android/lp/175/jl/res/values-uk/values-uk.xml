@@ -1,1 +1,5 @@
-<resources><string name="exo_download_completed">Завантаження завершено</string><string name="exo_download_description">Завантажити</string><string name="exo_download_downloading">Завантажується</string><string name="exo_download_failed">Не вдалося завантажити</string><string name="exo_download_notification_channel_name">Завантаження</string><string name="exo_download_paused">Завантаження призупинено</string><string name="exo_download_paused_for_network">Очікується підключення до мережі</string><string name="exo_download_paused_for_wifi">Очікується підключення до Wi-Fi</string><string name="exo_download_removing">Завантаження видаляються</string></resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Перейти вгору"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Відкрити панель навігації"</string>
+</resources>

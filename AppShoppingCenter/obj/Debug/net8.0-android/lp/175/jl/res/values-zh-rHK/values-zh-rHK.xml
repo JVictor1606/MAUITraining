@@ -1,1 +1,5 @@
-<resources><string name="exo_download_completed">下載完畢</string><string name="exo_download_description">下載</string><string name="exo_download_downloading">正在下載</string><string name="exo_download_failed">下載失敗</string><string name="exo_download_notification_channel_name">下載內容</string><string name="exo_download_paused">已暫停下載</string><string name="exo_download_paused_for_network">正在等待網絡連線以下載檔案</string><string name="exo_download_paused_for_wifi">正在等待 Wi-Fi 連線以下載檔案</string><string name="exo_download_removing">正在移除下載內容</string></resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"向上導覽"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"開啟導覽列"</string>
+</resources>

@@ -1,1 +1,5 @@
-<resources><string name="exo_download_completed">ჩამოტვირთვა დასრულდა</string><string name="exo_download_description">ჩამოტვირთვა</string><string name="exo_download_downloading">მიმდინარეობს ჩამოტვირთვა</string><string name="exo_download_failed">ჩამოტვირთვა ვერ მოხერხდა</string><string name="exo_download_notification_channel_name">ჩამოტვირთვები</string><string name="exo_download_paused">ჩამოტვირთვები დაპაუზებულია</string><string name="exo_download_paused_for_network">ჩამოტვირთვები ქსელს ელოდება</string><string name="exo_download_paused_for_wifi">ჩამოტვირთვები Wi-Fi-ს ელოდება</string><string name="exo_download_removing">მიმდინარეობს ჩამოტვირთვების ამოშლა</string></resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"ზემოთ გადასვლა"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"ნავიგაციის უჯრის გახსნა"</string>
+</resources>

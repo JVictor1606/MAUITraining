@@ -1,1 +1,5 @@
-<resources><string name="exo_download_completed">Osatu da deskarga</string><string name="exo_download_description">Deskargak</string><string name="exo_download_downloading">Deskargatzen</string><string name="exo_download_failed">Ezin izan da deskargatu</string><string name="exo_download_notification_channel_name">Deskargak</string><string name="exo_download_paused">Deskargak pausatuta daude</string><string name="exo_download_paused_for_network">Deskargak sare mugikorrera konektatzeko zain daude</string><string name="exo_download_paused_for_wifi">Deskargak wifira konektatzeko zain daude</string><string name="exo_download_removing">Deskargak kentzen</string></resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Joan gora"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Ireki nabigazio-panel lerrakorra"</string>
+</resources>

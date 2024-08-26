@@ -1,1 +1,5 @@
-<resources><string name="exo_download_completed">Allalaadimine lõpetati</string><string name="exo_download_description">Allalaadimine</string><string name="exo_download_downloading">Allalaadimine</string><string name="exo_download_failed">Allalaadimine ebaõnnestus</string><string name="exo_download_notification_channel_name">Allalaadimised</string><string name="exo_download_paused">Allalaadimised peatati</string><string name="exo_download_paused_for_network">Allalaadimised on võrgu ootel</string><string name="exo_download_paused_for_wifi">Allalaadimised on WiFi-võrgu ootel</string><string name="exo_download_removing">Allalaadimiste eemaldamine</string></resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Navigeeri üles"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Navigeerimissahtli avamine"</string>
+</resources>

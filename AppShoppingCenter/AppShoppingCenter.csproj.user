@@ -17,6 +17,9 @@
     <MauiXaml Update="Views\Authentications\ListPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Views\Cinemas\DetailDesktopPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Views\Cinemas\DetailPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
@@ -35,7 +38,16 @@
     <MauiXaml Update="Views\Stores\ListPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Views\Tickets\CameraPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Views\Tickets\ListPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Views\Tickets\PayPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Views\Tickets\ResultPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Views\Tickets\ScanPage.xaml">

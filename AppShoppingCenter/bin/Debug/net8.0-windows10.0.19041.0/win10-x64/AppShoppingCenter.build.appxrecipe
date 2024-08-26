@@ -220,6 +220,21 @@
     <AppxPackagedFile Include="C:\Projetos .NET\CursoMAUI\AppShoppingCenter\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\back.scale-400.png">
       <PackagePath>back.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projetos .NET\CursoMAUI\AppShoppingCenter\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\camera.scale-100.png">
+      <PackagePath>camera.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projetos .NET\CursoMAUI\AppShoppingCenter\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\camera.scale-125.png">
+      <PackagePath>camera.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projetos .NET\CursoMAUI\AppShoppingCenter\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\camera.scale-150.png">
+      <PackagePath>camera.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projetos .NET\CursoMAUI\AppShoppingCenter\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\camera.scale-200.png">
+      <PackagePath>camera.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projetos .NET\CursoMAUI\AppShoppingCenter\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\camera.scale-400.png">
+      <PackagePath>camera.scale-400.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projetos .NET\CursoMAUI\AppShoppingCenter\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\cinema.scale-100.png">
       <PackagePath>cinema.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -235,6 +250,39 @@
     <AppxPackagedFile Include="C:\Projetos .NET\CursoMAUI\AppShoppingCenter\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\cinema.scale-400.png">
       <PackagePath>cinema.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projetos .NET\CursoMAUI\AppShoppingCenter\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\cinemafundo.scale-100.jpg">
+      <PackagePath>cinemafundo.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projetos .NET\CursoMAUI\AppShoppingCenter\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\clock.scale-100.png">
+      <PackagePath>clock.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projetos .NET\CursoMAUI\AppShoppingCenter\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\clock.scale-125.png">
+      <PackagePath>clock.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projetos .NET\CursoMAUI\AppShoppingCenter\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\clock.scale-150.png">
+      <PackagePath>clock.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projetos .NET\CursoMAUI\AppShoppingCenter\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\clock.scale-200.png">
+      <PackagePath>clock.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projetos .NET\CursoMAUI\AppShoppingCenter\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\clock.scale-400.png">
+      <PackagePath>clock.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projetos .NET\CursoMAUI\AppShoppingCenter\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\close.scale-100.png">
+      <PackagePath>close.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projetos .NET\CursoMAUI\AppShoppingCenter\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\close.scale-125.png">
+      <PackagePath>close.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projetos .NET\CursoMAUI\AppShoppingCenter\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\close.scale-150.png">
+      <PackagePath>close.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projetos .NET\CursoMAUI\AppShoppingCenter\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\close.scale-200.png">
+      <PackagePath>close.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projetos .NET\CursoMAUI\AppShoppingCenter\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\close.scale-400.png">
+      <PackagePath>close.scale-400.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projetos .NET\CursoMAUI\AppShoppingCenter\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fullscreen.scale-100.png">
       <PackagePath>fullscreen.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -249,6 +297,21 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projetos .NET\CursoMAUI\AppShoppingCenter\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fullscreen.scale-400.png">
       <PackagePath>fullscreen.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projetos .NET\CursoMAUI\AppShoppingCenter\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pause.scale-100.png">
+      <PackagePath>pause.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projetos .NET\CursoMAUI\AppShoppingCenter\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pause.scale-125.png">
+      <PackagePath>pause.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projetos .NET\CursoMAUI\AppShoppingCenter\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pause.scale-150.png">
+      <PackagePath>pause.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projetos .NET\CursoMAUI\AppShoppingCenter\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pause.scale-200.png">
+      <PackagePath>pause.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projetos .NET\CursoMAUI\AppShoppingCenter\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pause.scale-400.png">
+      <PackagePath>pause.scale-400.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projetos .NET\CursoMAUI\AppShoppingCenter\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\phone.scale-100.png">
       <PackagePath>phone.scale-100.png</PackagePath>
@@ -279,6 +342,21 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projetos .NET\CursoMAUI\AppShoppingCenter\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin.scale-400.png">
       <PackagePath>pin.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projetos .NET\CursoMAUI\AppShoppingCenter\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\play.scale-100.png">
+      <PackagePath>play.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projetos .NET\CursoMAUI\AppShoppingCenter\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\play.scale-125.png">
+      <PackagePath>play.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projetos .NET\CursoMAUI\AppShoppingCenter\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\play.scale-150.png">
+      <PackagePath>play.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projetos .NET\CursoMAUI\AppShoppingCenter\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\play.scale-200.png">
+      <PackagePath>play.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projetos .NET\CursoMAUI\AppShoppingCenter\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\play.scale-400.png">
+      <PackagePath>play.scale-400.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projetos .NET\CursoMAUI\AppShoppingCenter\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\restaurant.scale-100.png">
       <PackagePath>restaurant.scale-100.png</PackagePath>
@@ -444,6 +522,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\João\.nuget\packages\system.speech\8.0.0\runtimes\win\lib\net8.0\System.Speech.dll">
       <PackagePath>System.Speech.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\João\.nuget\packages\zxing.net\0.16.9\lib\net7.0\zxing.dll">
+      <PackagePath>zxing.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\João\.nuget\packages\zxing.net.maui\0.4.0\lib\net7.0-windows10.0.19041\ZXing.Net.MAUI.dll">
+      <PackagePath>ZXing.Net.MAUI.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\João\.nuget\packages\zxing.net.maui.controls\0.4.0\lib\net7.0-windows10.0.19041\ZXing.Net.MAUI.Controls.dll">
+      <PackagePath>ZXing.Net.MAUI.Controls.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\João\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\ar\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ar\Microsoft.Maui.Controls.resources.dll</PackagePath>

@@ -1,0 +1,3 @@
+[submodule "AppShoppingCenter"]
+	path = AppShoppingCenter
+	url = https://github.com/JVictor1606/CursoTrainingMAIU.git

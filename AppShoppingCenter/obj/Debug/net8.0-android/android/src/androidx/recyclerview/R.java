@@ -13,11 +13,11 @@ public final class R {
 		public static final int fastScrollHorizontalTrackDrawable = 0x7f0401e5;
 		public static final int fastScrollVerticalThumbDrawable = 0x7f0401e6;
 		public static final int fastScrollVerticalTrackDrawable = 0x7f0401e7;
-		public static final int layoutManager = 0x7f040283;
-		public static final int recyclerViewStyle = 0x7f0403b6;
-		public static final int reverseLayout = 0x7f0403bf;
-		public static final int spanCount = 0x7f04040a;
-		public static final int stackFromEnd = 0x7f04041c;
+		public static final int layoutManager = 0x7f040284;
+		public static final int recyclerViewStyle = 0x7f0403b7;
+		public static final int reverseLayout = 0x7f0403c0;
+		public static final int spanCount = 0x7f04040c;
+		public static final int stackFromEnd = 0x7f04041e;
 	}
 	public static final class dimen {
 		public static final int fastscroll_default_thickness = 0x7f0700b5;
@@ -28,10 +28,10 @@ public final class R {
 		public static final int item_touch_helper_swipe_escape_velocity = 0x7f0700c1;
 	}
 	public static final class id {
-		public static final int item_touch_helper_previous_elevation = 0x7f0a0125;
+		public static final int item_touch_helper_previous_elevation = 0x7f0a0129;
 	}
 	public static final class styleable {
-		public static final int[] RecyclerView = new int[] { 0x010100c4, 0x010100eb, 0x010100f1, 0x7f0401e3, 0x7f0401e4, 0x7f0401e5, 0x7f0401e6, 0x7f0401e7, 0x7f040283, 0x7f0403bf, 0x7f04040a, 0x7f04041c };
+		public static final int[] RecyclerView = new int[] { 0x010100c4, 0x010100eb, 0x010100f1, 0x7f0401e3, 0x7f0401e4, 0x7f0401e5, 0x7f0401e6, 0x7f0401e7, 0x7f040284, 0x7f0403c0, 0x7f04040c, 0x7f04041e };
 		public static final int RecyclerView_android_clipToPadding = 1;
 		public static final int RecyclerView_android_descendantFocusability = 2;
 		public static final int RecyclerView_android_orientation = 0;

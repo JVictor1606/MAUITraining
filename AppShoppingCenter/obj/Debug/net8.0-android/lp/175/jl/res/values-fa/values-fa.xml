@@ -1,1 +1,5 @@
-<resources><string name="exo_download_completed">بارگیری کامل شد</string><string name="exo_download_description">بارگیری</string><string name="exo_download_downloading">درحال بارگیری</string><string name="exo_download_failed">بارگیری نشد</string><string name="exo_download_notification_channel_name">بارگیری‌ها</string><string name="exo_download_paused">بارگیری‌ها موقتاً متوقف شد</string><string name="exo_download_paused_for_network">بارگیری‌ها درانتظار شبکه است</string><string name="exo_download_paused_for_wifi">بارگیری‌ها در انتظار Wi-Fi است</string><string name="exo_download_removing">حذف بارگیری‌ها</string></resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"پیمایش به بالا"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"باز کردن کشوی پیمایش"</string>
+</resources>

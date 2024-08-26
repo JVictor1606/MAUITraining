@@ -1,1 +1,5 @@
-<resources><string name="exo_download_completed">Endirmə tamamlandı</string><string name="exo_download_description">Endirin</string><string name="exo_download_downloading">Endirilir</string><string name="exo_download_failed">Endirmə alınmadı</string><string name="exo_download_notification_channel_name">Endirmələr</string><string name="exo_download_paused">Endirmə durdurulub</string><string name="exo_download_paused_for_network">Endirmələr şəbəkəni gözləyir</string><string name="exo_download_paused_for_wifi">Endirmələr WiFi şəbəkəsini gözləyir</string><string name="exo_download_removing">Endirilənlər silinir</string></resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Yuxarı keçin"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Naviqasiya panelini açın"</string>
+</resources>

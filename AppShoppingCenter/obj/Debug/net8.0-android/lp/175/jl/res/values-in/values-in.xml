@@ -1,1 +1,5 @@
-<resources><string name="exo_download_completed">Download selesai</string><string name="exo_download_description">Download</string><string name="exo_download_downloading">Mendownload</string><string name="exo_download_failed">Download gagal</string><string name="exo_download_notification_channel_name">Download</string><string name="exo_download_paused">Download dijeda</string><string name="exo_download_paused_for_network">Download menunggu konektivitas jaringan</string><string name="exo_download_paused_for_wifi">Download menunggu konektivitas Wi-Fi</string><string name="exo_download_removing">Menghapus download</string></resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Kembali ke atas"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Buka panel navigasi"</string>
+</resources>

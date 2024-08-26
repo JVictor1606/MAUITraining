@@ -9,64 +9,23 @@
     <ContentPage.BindingContext>
         <vm:ListPageViewModel x:Name="vm" />
     </ContentPage.BindingContext>
-    <Grid RowDefinitions="70, *">
-        <VerticalStackLayout Margin="50,0,0,0" VerticalOptions="End">
-            <Label Text="Cinemix" />
-            <Label Text="Em cartaz" />
-        </VerticalStackLayout>
-        <!--<CarouselView
-            Grid.Row="1"
-            ItemsSource="{Binding Movies}"
-            PeekAreaInsets="10">
-            <CarouselView.ItemsLayout>
-                <LinearItemsLayout
-                    ItemSpacing="0"
-                    Orientation="Horizontal"
-                    SnapPointsAlignment="Center"
-                    SnapPointsType="Mandatory" />
-            </CarouselView.ItemsLayout>
-            <CarouselView.ItemTemplate>
-                <DataTemplate>
-                    <Grid RowDefinitions="360,20,40">
-                        <Grid.GestureRecognizers>
-                            <TapGestureRecognizer Command="{Binding Source={x:Reference vm}, Path=TapMovieGoToDetailPageCommand}" CommandParameter="{Binding .}" />
-                        </Grid.GestureRecognizers>
-                        <Border
-                            Margin="0,0,0,0"
-                            HeightRequest="300"
-                            StrokeShape="RoundRectangle 30"
-                            StrokeThickness="0"
-                            WidthRequest="220">
-                            <Image
-                                Aspect="Fill"
-                                HeightRequest="300"
-                                Source="{Binding Cover}"
-                                WidthRequest="220" />
-                        </Border>
-                        <Label
-                            Grid.Row="1"
-                            HorizontalOptions="Center"
-                            Text="{Binding Duration}" />
-                        <Label
-                            Grid.Row="2"
-                            HorizontalOptions="Center"
-                            Style="{StaticResource primaryText}"
-                            Text="{Binding Name}" />
-                    </Grid>
-                </DataTemplate>
-            </CarouselView.ItemTemplate>
-        </CarouselView>-->
+    <Grid RowDefinitions="*">
+        <Image Source="cinemafundo.jpg" VerticalOptions="Start" Aspect="AspectFill"/>
+
+
         <CarouselView
             Grid.Row="1"
             Margin="0,60,0,0"
+            HorizontalScrollBarVisibility="Always"
             ItemsSource="{Binding Movies}"
-            PeekAreaInsets="10">
+            PeekAreaInsets="{OnPlatform Default=10,
+                                        WinUI=58}">
             <CarouselView.ItemsLayout>
                 <LinearItemsLayout
                     ItemSpacing="{OnPlatform Default=0,
                                              WinUI=10}"
                     Orientation="Horizontal"
-                    SnapPointsAlignment="Start"
+                    SnapPointsAlignment="Center"
                     SnapPointsType="Mandatory" />
             </CarouselView.ItemsLayout>
             <CarouselView.ItemTemplate>
@@ -91,22 +50,35 @@
                                 WidthRequest="{OnPlatform Default=220,
                                                           WinUI=320}" />
                         </Border>
-                        <Label
-                            HorizontalOptions="Center"
-                            Style="{StaticResource SecundaryText}"
-                            Text="{Binding Duration}"
-                            VerticalOptions="Center" />
+                        <HorizontalStackLayout
+                            Grid.Row="1"
+                            Padding="2,0"
+                            HorizontalOptions="Center">
+                            <Image HorizontalOptions="Center" Source="clock.png" />
+                            <Label Style="{StaticResource SecundaryText}" Text="{Binding Duration}" />
+
+                        </HorizontalStackLayout>
                         <Label
                             Grid.Row="2"
                             Margin="0,20,0,0"
                             HorizontalOptions="Center"
                             HorizontalTextAlignment="Center"
-                            Style="{StaticResource PrimaryText}"
+                            Style="{StaticResource primaryText}"
                             Text="{Binding Name}" />
                     </Grid>
 
                 </DataTemplate>
             </CarouselView.ItemTemplate>
         </CarouselView>
+        <VerticalStackLayout Margin="50,25,0,0" VerticalOptions="Start">
+            <Label
+                Style="{StaticResource primaryText}"
+                Text="Cinemix"
+                TextColor="White" />
+            <Label
+                Style="{StaticResource SecundaryText}"
+                Text="Em cartaz"
+                TextColor="White" />
+        </VerticalStackLayout>
     </Grid>
 </ContentPage>

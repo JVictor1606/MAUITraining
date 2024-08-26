@@ -59,9 +59,15 @@
 	  <None Remove="Resources\Fonts\OpenSans-Bold.ttf" />
 	  <None Remove="Resources\Fonts\OpenSans-Light.ttf" />
 	  <None Remove="Resources\Images\back.svg" />
+	  <None Remove="Resources\Images\camera.svg" />
 	  <None Remove="Resources\Images\cinema.svg" />
+	  <None Remove="Resources\Images\cinemafundo.jpg" />
+	  <None Remove="Resources\Images\clock.svg" />
+	  <None Remove="Resources\Images\close.svg" />
+	  <None Remove="Resources\Images\pause.svg" />
 	  <None Remove="Resources\Images\phone.svg" />
 	  <None Remove="Resources\Images\pin.svg" />
+	  <None Remove="Resources\Images\Play.svg" />
 	  <None Remove="Resources\Images\restaurant.svg" />
 	  <None Remove="Resources\Images\store.svg" />
 	  <None Remove="Resources\Images\ticket.svg" />
@@ -74,12 +80,12 @@
 		<PackageReference Include="Microsoft.Maui.Controls" Version="8.0.21" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="8.0.21" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
+		<PackageReference Include="ZXing.Net.Maui" Version="0.4.0" />
+		<PackageReference Include="ZXing.Net.Maui.Controls" Version="0.4.0" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Libraries\" />
 	  <Folder Include="ViewModels\AuthenticationsVM\" />
-	  <Folder Include="ViewModels\TicketsVM\" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -91,6 +97,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\Authentications\ListPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\Cinemas\DetailDesktopPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\Cinemas\DetailPage.xaml">
@@ -111,7 +120,16 @@
 	  <MauiXaml Update="Views\Stores\ListPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Views\Tickets\CameraPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\Tickets\ListPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\Tickets\PayPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\Tickets\ResultPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\Tickets\ScanPage.xaml">

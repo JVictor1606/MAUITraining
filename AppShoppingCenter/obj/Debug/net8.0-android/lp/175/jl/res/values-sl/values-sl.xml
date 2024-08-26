@@ -1,1 +1,5 @@
-<resources><string name="exo_download_completed">Prenos je končan</string><string name="exo_download_description">Prenos</string><string name="exo_download_downloading">Prenašanje</string><string name="exo_download_failed">Prenos ni uspel</string><string name="exo_download_notification_channel_name">Prenosi</string><string name="exo_download_paused">Prenosi so začasno zaustavljeni.</string><string name="exo_download_paused_for_network">Prenosi čakajo na povezavo z omrežjem.</string><string name="exo_download_paused_for_wifi">Prenosi čakajo na povezavo Wi-Fi.</string><string name="exo_download_removing">Odstranjevanje prenosov</string></resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Pomik navzgor"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Odpri predal za krmarjenje"</string>
+</resources>

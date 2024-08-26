@@ -1,1 +1,5 @@
-<resources><string name="exo_download_completed">Stahování bylo dokončeno</string><string name="exo_download_description">Stáhnout</string><string name="exo_download_downloading">Stahování</string><string name="exo_download_failed">Stažení se nezdařilo</string><string name="exo_download_notification_channel_name">Stahování</string><string name="exo_download_paused">Stahování pozastaveno</string><string name="exo_download_paused_for_network">Stahování čeká na síť</string><string name="exo_download_paused_for_wifi">Stahování čeká na WiFi</string><string name="exo_download_removing">Odstraňování staženého obsahu</string></resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Přejít nahoru"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Otevřít vysouvací panel navigace"</string>
+</resources>

@@ -1,1 +1,5 @@
-<resources><string name="exo_download_completed">Téléchargement terminé</string><string name="exo_download_description">Télécharger</string><string name="exo_download_downloading">Téléchargement en cours…</string><string name="exo_download_failed">Échec du téléchargement</string><string name="exo_download_notification_channel_name">Téléchargements</string><string name="exo_download_paused">Téléchargements interrompus</string><string name="exo_download_paused_for_network">Téléchargements en attente du réseau</string><string name="exo_download_paused_for_wifi">Téléchargements en attente du Wi-Fi</string><string name="exo_download_removing">Suppression des téléchargements en cours…</string></resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Revenir en arrière"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Ouvrir le panneau de navigation"</string>
+</resources>
