@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AppTask.Views.LoginPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="LoginPage">
+    <StackLayout
+        Padding="15"
+        Spacing="20"
+        VerticalOptions="Center">
+        <Label
+            Margin="0,0,0,40"
+            HorizontalTextAlignment="Center"
+            Style="{StaticResource Header}"
+            Text="Bem Vindo ao App de Tarefas!" />
+        <Label HorizontalTextAlignment="Center" Text="Faça seu login informando o email" />
+        <Label
+            x:Name="LblEmailValidateMessage"
+            HorizontalTextAlignment="Start"
+            IsVisible="False"
+            Text="O email é invalido"
+            TextColor="Red" />
+        <Border StrokeShape="RoundRectangle 10">
+            <Entry x:Name="EntryEmail" Placeholder="E-mail" />
+        </Border>
+
+        <Button
+            x:Name="BtnNext"
+            Clicked="NextAction"
+            Text="Proximo" />
+
+        <VerticalStackLayout
+            x:Name="Step2"
+            IsVisible="False"
+            Spacing="20">
+            <Label Text="Enviamos um e-mail para você, acesse sua caixa de entrada e digite o codigo no campo a abaixo:" />
+            <Label
+                x:Name="LblAcessTokenValidateMessage"
+                HorizontalTextAlignment="Start"
+                IsVisible="False"
+                Text="O codigo é invalido"
+                TextColor="Red" />
+            <Border StrokeShape="RoundRectangle 10">
+                <Entry
+                    x:Name="EntryAcessToken"
+                    MaxLength="4"
+                    Placeholder="Código" />
+            </Border>
+
+            <Button Clicked="AcessAction" Text="Acessar" />
+        </VerticalStackLayout>
+    </StackLayout>
+</ContentPage>

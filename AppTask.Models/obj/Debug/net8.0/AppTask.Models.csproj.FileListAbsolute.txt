@@ -1,0 +1,12 @@
+C:\Projetos .NET\CursoMAUI\AppTask.Models\bin\Debug\net8.0\AppTask.Models.deps.json
+C:\Projetos .NET\CursoMAUI\AppTask.Models\bin\Debug\net8.0\AppTask.Models.dll
+C:\Projetos .NET\CursoMAUI\AppTask.Models\bin\Debug\net8.0\AppTask.Models.pdb
+C:\Projetos .NET\CursoMAUI\AppTask.Models\obj\Debug\net8.0\AppTask.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos .NET\CursoMAUI\AppTask.Models\obj\Debug\net8.0\AppTask.Models.AssemblyInfoInputs.cache
+C:\Projetos .NET\CursoMAUI\AppTask.Models\obj\Debug\net8.0\AppTask.Models.AssemblyInfo.cs
+C:\Projetos .NET\CursoMAUI\AppTask.Models\obj\Debug\net8.0\AppTask.Models.csproj.CoreCompileInputs.cache
+C:\Projetos .NET\CursoMAUI\AppTask.Models\obj\Debug\net8.0\AppTask.Models.dll
+C:\Projetos .NET\CursoMAUI\AppTask.Models\obj\Debug\net8.0\refint\AppTask.Models.dll
+C:\Projetos .NET\CursoMAUI\AppTask.Models\obj\Debug\net8.0\AppTask.Models.pdb
+C:\Projetos .NET\CursoMAUI\AppTask.Models\obj\Debug\net8.0\ref\AppTask.Models.dll
+C:\Projetos .NET\CursoMAUI\AppTask.Models\obj\Debug\net8.0\AppTask.Models.sourcelink.json

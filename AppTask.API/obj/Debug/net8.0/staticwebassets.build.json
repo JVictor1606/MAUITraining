@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "9oYNkL2IkmPoTjR2x4xMZkE9dia+a7hSjEMpcp9Ibpo=",
+  "Source": "AppTask.API",
+  "BasePath": "_content/AppTask.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
